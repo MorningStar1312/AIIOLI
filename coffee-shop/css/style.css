@@ -1,0 +1,108 @@
+body {
+    font-family: 'Oswald', sans-serif ;
+}
+
+
+
+
+
+/*********************HEADER************************/
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+
+}
+
+#header-logo {
+    width: 90%;
+    height: auto;
+}
+ 
+header a {
+    color: white;
+    margin-left: 24px;
+}
+
+header a:hover {
+    color: white;
+ }
+
+header a:visited {
+    color: white;
+}
+
+
+
+
+
+
+/*********************HERO SECTION************************/
+
+#hero-section {
+    background-image: url(../img/Beef-Burger-with-Garlic-Aioli.jpg.webp);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+
+}
+
+#hero-section::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #6854539c;
+    height: 100vh;
+}
+
+
+
+
+#hero-logo {
+    border-radius: 37% ;
+    width: 256px;
+
+}
+
+#arrow-down {
+    
+
+    position: absolute;
+    bottom: 64px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 64px;
+     
+}
+
+/*********************intro SECTION************************/
+
+#intro-section {
+    background: #eae7de;
+}
+
+/*********************aboutSECTION************************/
+
+#about-bg-1 {
+    background-image: url(../img/0-02-05-35c554232ee4ec5266c16ac03d0a8dea89d4b79296ff909c269a96a9b205225c_b1aad7618022455.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right; 
+    min-height: 580px;
+}
+
+#about-bg-2 {
+    background-image: url(../img/coffee-171653_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left; 
+    min-height: 680px;
+}
